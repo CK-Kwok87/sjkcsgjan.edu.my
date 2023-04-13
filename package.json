@@ -1,0 +1,26 @@
+{
+  "name": "sjkcsgjan.edu.my",
+  "version": "1.0.0",
+  "description": "SJK(C) SUNGAI JAN - website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "Bootstrap-v5",
+    "sass",
+    "school-website"
+  ],
+  "author": "KWOK YEW FUNG & KWOK CHENG KEAT",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.62.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.0-alpha3",
+    "postcss-cli": "^10.1.0"
+  }
+}
