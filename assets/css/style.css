@@ -11850,6 +11850,29 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+:root {
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+}
+
+.dark-theme {
+  --primary-color: #000106;
+  --secondary-color: #fff;
+  color: #fff;
+}
+.dark-theme .school-name {
+  color: #fff;
+}
+
+body {
+  background: var(--primary-color);
+}
+
+#icon {
+  cursor: pointer;
+  width: 25px;
+}
+
 .menu {
   background: transparent;
 }
