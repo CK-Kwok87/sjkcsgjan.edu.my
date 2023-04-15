@@ -23,18 +23,18 @@ const disableDarkMode = () => {
 
 if (darkMode == "enabled") {
   enableDarkMode();
-  icon.src = "assets/images/dark theme icons/sun.png";
+  icon.src = "assets/images/dark theme icons/sunlight.png";
 }
 
 darkModeToggle.addEventListener("click", () => {
   darkMode = localStorage.getItem("darkMode");
   if (darkMode !== "enabled") {
     enableDarkMode();
-    icon.src = "assets/images/dark theme icons/sun.png";
+    icon.src = "assets/images/dark theme icons/sunlight.png";
     console.log(darkMode);
   } else {
     disableDarkMode();
-    icon.src = "assets/images/dark theme icons/moon.png";
+    icon.src = "assets/images/dark theme icons/moonlight.png";
     console.log(darkMode);
   }
 });
