@@ -11855,15 +11855,6 @@ textarea.form-control-lg {
   --secondary-color: #212121;
 }
 
-.dark-theme {
-  background: rgba(0, 0, 0, 0.6) url("../../assets/images/sunset.jpg");
-  background-blend-mode: darken;
-  color: #fff;
-}
-.dark-theme .school-name {
-  color: #fff;
-}
-
 body {
   background: url("../../assets/images/sunset.jpg");
 }
@@ -11872,6 +11863,14 @@ body {
   cursor: pointer;
   height: 25px;
   width: 25px;
+}
+
+.darkmode {
+  background-color: rgba(0, 0, 0, 0.9);
+  background-blend-mode: darken;
+}
+.darkmode .school-name {
+  color: white;
 }
 
 .navbar-toggler {
