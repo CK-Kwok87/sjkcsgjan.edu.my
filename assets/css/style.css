@@ -11850,13 +11850,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-:root {
-  --primary-color: #edf2fc;
-  --secondary-color: #212121;
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 body {
   background: url("../../assets/images/sunset.jpg");
+  font-size: 1.6rem;
 }
 
 #icon {
@@ -11868,6 +11869,7 @@ body {
 .darkmode {
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: darken;
+  color: white;
 }
 .darkmode .school-name {
   color: white;

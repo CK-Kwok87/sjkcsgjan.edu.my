@@ -38,13 +38,14 @@ $navbar-toggler-border-radius: $btn-border-radius;
 $navbar-toggler-focus-width: $btn-focus-width;
 $navbar-toggler-transition: box-shadow 0.15s ease-in-out;
 
-:root {
-  --primary-color: #edf2fc;
-  --secondary-color: #212121;
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 body {
   background: url("../../assets/images/sunset.jpg");
+  font-size: 1.6rem;
 }
 
 #icon {
@@ -56,6 +57,8 @@ body {
 .darkmode {
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: darken;
+  color: white;
+
   .school-name {
     color: white;
   }
