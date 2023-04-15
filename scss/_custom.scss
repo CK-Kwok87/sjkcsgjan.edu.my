@@ -41,10 +41,14 @@ $navbar-toggler-transition: box-shadow 0.15s ease-in-out;
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  min-height: 100%;
 }
 
 body {
-  background: url("../../assets/images/sunset.jpg");
+  background-image: url("../../assets/images/sunset.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   font-size: 1.6rem;
 }
 
