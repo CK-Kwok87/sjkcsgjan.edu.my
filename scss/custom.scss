@@ -44,7 +44,7 @@ $navbar-toggler-transition: box-shadow 0.15s ease-in-out;
 }
 
 .dark-theme {
-  background: rgba(0, 0, 0, 0.6) url("/assets/images/sunset.jpg");
+  background: rgba(0, 0, 0, 0.6) url("/../assets/images/sunset.jpg");
   background-blend-mode: darken;
   color: #fff;
 
@@ -54,7 +54,7 @@ $navbar-toggler-transition: box-shadow 0.15s ease-in-out;
 }
 
 body {
-  background: url("/assets/images/sunset.jpg");
+  background: url("/../assets/images/sunset.jpg");
 }
 
 #icon {
