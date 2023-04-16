@@ -11897,7 +11897,7 @@ body {
 }
 
 .offcanvas {
-  background: transparent;
+  background: rgba(60, 60, 60, 0.7);
 }
 
 .dropdown-item {
