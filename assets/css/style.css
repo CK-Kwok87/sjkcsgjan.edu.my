@@ -11871,22 +11871,68 @@ body {
 }
 
 .darkmode {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(18, 18, 18, 0.7);
   background-blend-mode: darken;
-  color: white;
+  color: rgba(255, 255, 255, 0.87);
 }
 .darkmode .school-name {
-  color: white;
+  color: rgba(255, 255, 255, 0.87);
+}
+.darkmode .navbar-toggler {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.school-name {
+  font-size: 1.6rem;
 }
 
 .navbar-toggler {
-  background: rgba(255, 255, 255, 0.5);
+  background: transparent;
   padding: 0.1rem 0.2rem 0.1rem 0.2rem;
 }
 
 .navbar-toggler-icon {
   height: 25px;
   width: 25px;
+}
+
+.offcanvas {
+  background: transparent;
+}
+
+.dropdown-item {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+a.dropdown-item:hover {
+  background: transparent;
+}
+
+.dropdown-menu {
+  background: transparent;
+  border: none;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.nav-link:hover {
+  color: rgb(187, 187, 187);
+}
+
+.offcanvas.offcanvas-end {
+  width: 100vw;
 }
 
 .menu {
