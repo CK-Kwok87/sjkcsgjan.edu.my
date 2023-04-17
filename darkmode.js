@@ -31,10 +31,8 @@ darkModeToggle.addEventListener("click", () => {
   if (darkMode !== "enabled") {
     enableDarkMode();
     icon.src = "assets/images/dark theme icons/sunlight.png";
-    console.log(darkMode);
   } else {
     disableDarkMode();
     icon.src = "assets/images/dark theme icons/moonlight.png";
-    console.log(darkMode);
   }
 });
