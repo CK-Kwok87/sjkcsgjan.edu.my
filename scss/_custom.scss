@@ -61,6 +61,7 @@ body {
 /* Banner styling */
 .banner {
   background-position: center;
+  border-radius: 10px;
   background-size: cover;
   height: 300px;
   width: 100%;
@@ -69,7 +70,7 @@ body {
   animation-duration: 3s;
   animation-delay: 1s;
   animation-fill-mode: both;
-  margin-top: 6rem;
+  margin-top: 5.5rem;
 }
 
 /* Animation keyframes */
