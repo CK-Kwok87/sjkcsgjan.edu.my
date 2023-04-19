@@ -11870,6 +11870,31 @@ body {
   width: 25px;
 }
 
+/* Banner styling */
+.banner {
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  animation-name: zoom-in;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  margin-top: 6rem;
+}
+
+/* Animation keyframes */
+@keyframes zoom-in {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 .darkmode {
   background-color: rgba(18, 18, 18, 0.7);
   background-blend-mode: darken;
