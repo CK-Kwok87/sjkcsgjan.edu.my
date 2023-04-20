@@ -11931,14 +11931,14 @@ footer::first-line {
 
 .offcanvas {
   background: rgba(60, 60, 60, 0.7);
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 8rem;
 }
 
 .dropdown-item {
   color: rgba(255, 255, 255, 0.87);
-  font-size: 1.5rem;
-  padding-left: 7.5rem;
+  font-size: 2rem;
+  padding-left: 9rem;
   line-height: 3rem;
 }
 
@@ -11976,9 +11976,6 @@ a.dropdown-item:hover {
 @media only screen and (max-width: 1200px) {
   body {
     background-image: url("../../assets/images/vertical-bg.jpg");
-    color: rgba(255, 255, 255, 0.87);
-  }
-  .school-name {
     color: rgba(255, 255, 255, 0.87);
   }
 }
