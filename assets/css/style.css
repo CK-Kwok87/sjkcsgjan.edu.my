@@ -11932,14 +11932,14 @@ footer::first-line {
 .offcanvas {
   background: rgba(60, 60, 60, 0.7);
   font-size: 2rem;
-  line-height: 3.8rem;
+  line-height: 8rem;
 }
 
 .dropdown-item {
   color: rgba(255, 255, 255, 0.87);
   font-size: 1.5rem;
   padding-left: 7.5rem;
-  line-height: 2.5rem;
+  line-height: 3rem;
 }
 
 a.dropdown-item:hover {
