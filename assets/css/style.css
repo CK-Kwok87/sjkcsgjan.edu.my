@@ -11936,7 +11936,7 @@ footer::first-line {
 }
 
 .dropdown-item {
-  color: rgba(255, 255, 255, 0.87);
+  color: #aeaeae;
   font-size: 2rem;
   padding-left: 9rem;
   line-height: 3rem;
