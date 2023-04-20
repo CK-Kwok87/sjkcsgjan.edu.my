@@ -11970,7 +11970,7 @@ a.dropdown-item:hover {
 
 @media only screen and (max-width: 1200px) {
   body {
-    background-image: url("../../assets/images/vertical-bg.png");
+    background-image: url("../../assets/images/vertical-bg.jpg");
     color: rgba(255, 255, 255, 0.87);
   }
   .school-name {
