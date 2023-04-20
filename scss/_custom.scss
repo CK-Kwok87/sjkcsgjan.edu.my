@@ -123,10 +123,15 @@ footer::first-line {
 
 .offcanvas {
   background: rgba(rgb(60, 60, 60), 0.7);
+  font-size: 2rem;
+  line-height: 3.8rem;
 }
 
 .dropdown-item {
   color: rgba(#ffffff, 0.87);
+  font-size: 1.5rem;
+  padding-left: 7.5rem;
+  line-height: 2.5rem;
 }
 
 a.dropdown-item:hover {
