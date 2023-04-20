@@ -11968,6 +11968,15 @@ a.dropdown-item:hover {
   width: 100vw;
 }
 
+@media only screen and (max-width: 1200px) {
+  body {
+    background-image: url("../../assets/images/vertical-bg.png");
+    color: rgba(255, 255, 255, 0.87);
+  }
+  .school-name {
+    color: rgba(255, 255, 255, 0.87);
+  }
+}
 .menu {
   background: transparent;
 }

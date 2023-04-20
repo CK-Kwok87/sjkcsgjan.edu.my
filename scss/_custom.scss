@@ -159,3 +159,15 @@ a.dropdown-item:hover {
 .offcanvas.offcanvas-end {
   width: 100vw;
 }
+
+// ******** DESKTOP SITE ********
+@media only screen and (max-width: 1200px) {
+  body {
+    background-image: url("../../assets/images/vertical-bg.png");
+    color: rgba(#ffffff, 0.87);
+  }
+
+  .school-name {
+    color: rgba(#ffffff, 0.87);
+  }
+} ;
